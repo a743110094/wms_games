@@ -1,0 +1,72 @@
+{
+  "seed": 12345,
+  "grid": {
+    "rows": 18,
+    "cols": 18,
+    "cellPx": 32
+  },
+  "vehicle": {
+    "start": [0, 0],
+    "capacity": 200,
+    "speed_cells_per_s": 5
+  },
+  "items": [
+    {
+      "id": "item1",
+      "pos": [3, 5],
+      "weight": 40
+    },
+    {
+      "id": "item2",
+      "pos": [10, 12],
+      "weight": 20
+    },
+    {
+      "id": "item3",
+      "pos": [15, 8],
+      "weight": 65
+    },
+    {
+      "id": "item4",
+      "pos": [7, 2],
+      "weight": 30
+    },
+    {
+      "id": "item5",
+      "pos": [12, 15],
+      "weight": 45
+    },
+    {
+      "id": "item6",
+      "pos": [5, 10],
+      "weight": 25
+    },
+    {
+      "id": "item7",
+      "pos": [16, 3],
+      "weight": 55
+    },
+    {
+      "id": "item8",
+      "pos": [8, 14],
+      "weight": 35
+    },
+    {
+      "id": "item9",
+      "pos": [2, 8],
+      "weight": 50
+    },
+    {
+      "id": "item10",
+      "pos": [14, 6],
+      "weight": 28
+    }
+  ],
+  "config": {
+    "minItems": 8,
+    "maxItems": 15,
+    "itemWeightRange": [10, 90],
+    "unloadTime": 1000
+  }
+}
+
